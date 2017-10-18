@@ -16,7 +16,7 @@ sudo apt install cmake libmaxminddb-dev
 
 # Usage
 ```
-./bin/test -i 36.110.59.146
+./test -i 36.110.59.146
 ip=36.110.59.146, country=47, prov=1, city=0, isp=1
 ```
 

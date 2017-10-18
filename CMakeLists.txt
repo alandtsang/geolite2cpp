@@ -6,7 +6,7 @@ include_directories(${PROJECT_SOURCE_DIR}/include /usr/include)
 message(STATUS "include path: ${PROJECT_SOURCE_DIR}/include")
 
 link_directories(${PROJECT_SOURCE_DIR}/lib /usr/local/lib)
-message(STATUS "include lib : ${PROJECT_SOURCE_DIR}/lib")
+message(STATUS "library path: ${PROJECT_SOURCE_DIR}/lib")
 
 SET(CMAKE_CXX_FLAGS "-g -Wall -Wextra -ffunction-sections -O3")
 
